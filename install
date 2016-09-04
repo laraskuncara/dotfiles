@@ -213,10 +213,10 @@ info "› brew update"
 info "› brew bundle"
 brew bundle --verbose
 
-install_zsh
+# install_zsh
 
-# info "› back up apps preference with mackup"
-# mackup backup
+info "› back up apps preference with mackup"
+mackup backup
 
 info ''
 info '  All installed!'
