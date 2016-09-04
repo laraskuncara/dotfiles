@@ -29,7 +29,7 @@ setup_gitconfig () {
     info 'setup gitconfig'
 
     git_credential='cache'
-    if [ "$(uname -s)" == "Darwin" ]
+    if [ "$(uname -s)" = "Darwin" ]
     then
       git_credential='osxkeychain'
     fi
@@ -193,20 +193,31 @@ ask_for_sudo() {
 
 }
 
+setup_osxdefault() {
+  if source setdefault > /tmp/dotfiles-dot 2>&1
+  then
+    success "Done. Note that some of these changes require a logout/restart to take effect."
+  else
+    fail "error set osx default"
+  fi
+}
 
-
-# setup_gitconfig
+setup_gitconfig
 install_dotfiles
 
-# source setdefault
+setup_osxdefault
 
-# install_homebrew
-# info "› brew update"
+install_homebrew
+info "› brew update"
 # brew update
-# info "› brew bundle"
-# brew bundle --verbose
+info "› brew bundle"
+brew bundle --verbose
 
-# install_zsh
+install_zsh
+
+# info "› back up apps preference with mackup"
+# mackup backup
 
 info ''
 info '  All installed!'
+$SHELL

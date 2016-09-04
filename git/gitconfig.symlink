@@ -17,6 +17,7 @@
 [core]
         excludesfile = ~/.gitignore
         editor = vim
+	trustctime = false
 [apply]
         whitespace = nowarn
 [mergetool]
@@ -31,3 +32,6 @@
         #
         # Setting to git 2.0 default to suppress warning message
         default = simple
+[user]
+	email = laraskuncara@gmail.com
+	name = Laras Kuncara
