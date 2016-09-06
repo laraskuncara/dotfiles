@@ -37,6 +37,10 @@ function fs() {
 	fi;
 }
 
+# FileSearch
+function f() { find . -iname "*$1*" ${@:2} }
+function r() { grep "$1" ${@:2} -R . }
+
 # `s` with no arguments opens the current directory in Sublime Text, otherwise
 # opens the given location
 function s() {
