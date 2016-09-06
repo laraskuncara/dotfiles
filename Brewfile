@@ -53,6 +53,7 @@ cask '1password'
 mas 'amphetamine', id: 937984704
 cask 'virtualbox'
 cask 'virtualbox-extension-pack'
+cask 'wineskin-winery'
 cask 'goofy'
 cask 'little-snitch'
 cask 'malwarebytes-anti-malware'
