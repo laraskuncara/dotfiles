@@ -5,9 +5,9 @@
         protocol = https
 [alias]
         co = checkout
-        promote = !$ZSH/bin/git-promote
-        wtf     = !$ZSH/bin/git-wtf
-        rank-contributors = !$ZSH/bin/git-rank-contributors
+        promote = !$dotZSH/bin/git-promote
+        wtf     = !$dotZSH/bin/git-wtf
+        rank-contributors = !$dotZSH/bin/git-rank-contributors
         count   = !git shortlog -sn
 [color]
         diff = auto
@@ -32,6 +32,3 @@
         #
         # Setting to git 2.0 default to suppress warning message
         default = simple
-[user]
-	email = laraskuncara@gmail.com
-	name = Laras Kuncara
