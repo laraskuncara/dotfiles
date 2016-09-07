@@ -20,3 +20,5 @@ ulimit -S -n 1024
 
 # Use logcat-color
 alias logcat=$HOME/Development/Project/dotfiles/android/logcat-color/logcat-color
+
+alias adb='nocorrect adb'
