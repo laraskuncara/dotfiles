@@ -39,3 +39,5 @@ if [[ -a ~/.localrc ]]
 then
   source ~/.localrc
 fi
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
