@@ -43,14 +43,13 @@ brew 'git-extras'
 cask 'betterzip'
 cask 'istat-menus'
 # cask 'menumeters'
-cask 'vlc'
 cask 'google-chrome'
 cask 'google-drive'
 cask 'dropbox'
 cask 'evernote'
-cask '1password'
-# mas '1password', id: 443987910
+mas '1password', id: 443987910
 mas 'amphetamine', id: 937984704
+mas ‘pages’, id:409201541
 cask 'virtualbox'
 cask 'virtualbox-extension-pack'
 cask 'wineskin-winery'

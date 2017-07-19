@@ -202,21 +202,21 @@ setup_osxdefault() {
   fi
 }
 
-setup_gitconfig
-install_dotfiles
+#setup_gitconfig
+#install_dotfiles
 
-setup_osxdefault
+#setup_osxdefault
 
 install_homebrew
 info "› brew update"
-# brew update
+brew update
 info "› brew bundle"
 brew bundle --verbose
 
 # install_zsh
 
-info "› back up apps preference with mackup"
-mackup backup
+#info "› back up apps preference with mackup"
+#mackup backup
 
 info ''
 info '  All installed!'
