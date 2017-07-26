@@ -54,6 +54,7 @@ mas 'amphetamine', id: 937984704
 mas 'pages', id:409201541
 mas 'numbers', id:409203825
 mas 'keynote', id:409183694
+mas 'snailgit', id: 1099475282
 # cask 'virtualbox'
 # cask 'virtualbox-extension-pack'
 # cask 'wineskin-winery'
@@ -63,9 +64,13 @@ mas 'keynote', id:409183694
 
 cask 'sublime-text'
 cask 'iterm2'
+cask 'spectacle'
+cask 'java'
+cask 'android-sdk'
+cask 'android-ndk'
+cask 'android-studio'
 # cask 'android-file-transfer'
 # cask 'macdown'
-# mas 'snailgit', id: 1099475282
 # cask 'sourcetree'
 # cask 'transmit'
 # cask 'rescuetime'
