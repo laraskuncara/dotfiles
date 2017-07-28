@@ -34,6 +34,7 @@ brew 'trash'
 brew 'hub'
 brew 'python'
 brew 'git-extras'
+brew 'gradle'
 
 # Development
 # brew 'php70', args: ['with-debug', 'without-apache']

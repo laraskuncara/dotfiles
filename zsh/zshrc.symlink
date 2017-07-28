@@ -40,4 +40,6 @@ then
   source ~/.localrc
 fi
 export PATH="$HOME/.jenv/bin:$PATH"
+export ANDROID_SDK=/usr/local/Caskroom/android-sdk/3859397,26.0.1
+export ANDROID_NDK=/usr/local/Caskroom/android-ndk/15b/android-ndk-r15b
 eval "$(jenv init -)"
