@@ -202,6 +202,9 @@ setup_osxdefault() {
   fi
 }
 
+
+# xcode-select --install
+
 #setup_gitconfig
 #install_dotfiles
 
@@ -213,7 +216,7 @@ brew update
 info "› brew bundle"
 brew bundle --verbose
 
-# install_zsh
+install_zsh #use this or ohmyzsh, use brew for reguler zsh
 
 #info "› back up apps preference with mackup"
 #mackup backup

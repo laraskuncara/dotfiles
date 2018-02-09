@@ -10,20 +10,20 @@ tap 'homebrew/dupes'
 cask_args appdir: '/Applications'
 
 # Install ZSH
-brew 'zsh'
-brew 'zsh-completions'
+# brew 'zsh'
+# brew 'zsh-completions'
 
 # Install GNU core utilities (those that come with OS X are outdated)
 brew 'coreutils'
 
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
-brew 'findutils'
+# brew 'findutils'
 
 # Install Bash 4
-brew 'bash'
+# brew 'bash'
 
 # Install more recent versions of some OS X tools
-brew 'homebrew/dupes/grep'
+brew 'grep'
 
 # Install Binaries
 brew 'git'
@@ -50,6 +50,7 @@ cask 'istat-menus'
 # cask 'evernote'
 cask 'itsycal'
 cask 'cheatsheet'
+cask 'diffmerge'
 mas '1password', id: 443987910
 mas 'amphetamine', id: 937984704
 mas 'pages', id:409201541
