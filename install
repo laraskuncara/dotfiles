@@ -202,7 +202,7 @@ setup_osxdefault() {
   fi
 }
 
-
+# use this only first install
 # xcode-select --install
 
 #setup_gitconfig
@@ -216,7 +216,7 @@ brew update
 info "› brew bundle"
 brew bundle --verbose
 
-install_zsh #use this or ohmyzsh, use brew for reguler zsh
+install_zsh # use this or ohmyzsh, use brew for reguler zsh
 
 #info "› back up apps preference with mackup"
 #mackup backup

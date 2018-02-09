@@ -57,6 +57,8 @@ mas 'pages', id:409201541
 mas 'numbers', id:409203825
 mas 'keynote', id:409183694
 mas 'snailgit', id: 1099475282
+mas 'iMovie', id: 408981434
+mas 'Xcode', id: 497799835
 # cask 'virtualbox'
 # cask 'virtualbox-extension-pack'
 # cask 'wineskin-winery'
